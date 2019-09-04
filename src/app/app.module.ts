@@ -12,11 +12,13 @@ import { AppComponent } from './app.component';
 
 import 'hammerjs';
 import { MenuComponent } from './menu/menu.component';
+import { DishDetailComponent } from './menu/dish-detail/dish-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    DishDetailComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +28,7 @@ import { MenuComponent } from './menu/menu.component';
     MatListModule,
     MatGridListModule,
     MatCardModule,
-    MatButtonModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
